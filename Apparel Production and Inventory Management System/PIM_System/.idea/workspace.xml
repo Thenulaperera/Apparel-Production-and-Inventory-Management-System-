@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7187c102-8321-46c2-8350-bf8ef8f0120b" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_C:/Users/nipul/Desktop/Apparel Production and Inventory Management System Version 8.0/Apparel Production and Inventory Management System/PIM_System" value="39N8hevkDujj1tKIGGUkV7Q0hAT" />
+    </persistenceIdMap>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/org/example/pim_system/model/InventoryItem.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/org/example/pim_system/repository/EmployeeRepository.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="39N8hevkDujj1tKIGGUkV7Q0hAT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JavaScript Debug.index.html.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.PimSystemApplication.executor": "Run",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Chanitha Lakwan/Desktop/Apparel Production and Inventory Management System/PIM_System",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "duplicates.index",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Chanitha Lakwan\Desktop\Apparel Production and Inventory Management System\PIM_System\src\main\resources\templates" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.PimSystemApplication">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/PIM_System/templates/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="PimSystemApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="PIM_System" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.pim_system.PimSystemApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26574.91" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26574.91" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7187c102-8321-46c2-8350-bf8ef8f0120b" name="Changes" comment="" />
+      <created>1770525291444</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1770525291444</updated>
+      <workItem from="1770525292650" duration="13041000" />
+      <workItem from="1770622760575" duration="6432000" />
+      <workItem from="1770644192920" duration="3261000" />
+      <workItem from="1770648237573" duration="7175000" />
+      <workItem from="1770708228362" duration="1560000" />
+      <workItem from="1770825594542" duration="1223000" />
+      <workItem from="1770892560983" duration="940000" />
+      <workItem from="1771000435638" duration="1549000" />
+      <workItem from="1771243862235" duration="424000" />
+      <workItem from="1771244299706" duration="18000" />
+      <workItem from="1771649439702" duration="1273000" />
+      <workItem from="1771890506303" duration="95000" />
+      <workItem from="1771891273717" duration="1313000" />
+      <workItem from="1771905788642" duration="10124000" />
+      <workItem from="1771947702342" duration="10206000" />
+      <workItem from="1771998581008" duration="303000" />
+      <workItem from="1771998937817" duration="6015000" />
+      <workItem from="1772093848773" duration="3461000" />
+      <workItem from="1772104426480" duration="8788000" />
+      <workItem from="1772122193741" duration="4566000" />
+      <workItem from="1772127753713" duration="80000" />
+      <workItem from="1772164637197" duration="556000" />
+      <workItem from="1772370052249" duration="1251000" />
+      <workItem from="1772441834912" duration="5958000" />
+      <workItem from="1772536909913" duration="1807000" />
+      <workItem from="1772542939988" duration="5072000" />
+      <workItem from="1772560118780" duration="15362000" />
+      <workItem from="1772601428124" duration="8155000" />
+      <workItem from="1772616579930" duration="1567000" />
+      <workItem from="1772640045866" duration="1595000" />
+      <workItem from="1773913393695" duration="16263000" />
+      <workItem from="1773935459772" duration="1439000" />
+      <workItem from="1774113582557" duration="1284000" />
+      <workItem from="1774178856756" duration="1999000" />
+      <workItem from="1774237308017" duration="1484000" />
+      <workItem from="1774247697522" duration="4160000" />
+      <workItem from="1774263381080" duration="2844000" />
+      <workItem from="1774281345187" duration="168000" />
+      <workItem from="1774281814405" duration="4144000" />
+      <workItem from="1774291870374" duration="396000" />
+      <workItem from="1774325173567" duration="10970000" />
+      <workItem from="1774365807165" duration="3797000" />
+      <workItem from="1774448678787" duration="8765000" />
+      <workItem from="1774756240834" duration="1401000" />
+      <workItem from="1774894107714" duration="607000" />
+      <workItem from="1775046270682" duration="1163000" />
+      <workItem from="1775055804218" duration="1122000" />
+      <workItem from="1775149139695" duration="2921000" />
+      <workItem from="1775232839946" duration="1249000" />
+      <workItem from="1775240975217" duration="1796000" />
+      <workItem from="1775280320606" duration="386000" />
+      <workItem from="1775281704757" duration="2469000" />
+      <workItem from="1775575610036" duration="829000" />
+      <workItem from="1775718428909" duration="3236000" />
+      <workItem from="1776148716317" duration="6048000" />
+      <workItem from="1776156875997" duration="3687000" />
+      <workItem from="1776844718572" duration="1147000" />
+      <workItem from="1776952228005" duration="1419000" />
+      <workItem from="1777225401208" duration="1165000" />
+      <workItem from="1777226637627" duration="37000" />
+      <workItem from="1777226710097" duration="22000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
+  </component>
+</project>
