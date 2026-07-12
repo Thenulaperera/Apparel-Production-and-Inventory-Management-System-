@@ -104,54 +104,6 @@ Open your browser and go to:
 
 ---
 
-## 👥 Team Members (ISP_G28)
-
-* IT24101523 — Nuwanjith A.A.N
-* IT24102303 — Gunasinghe K.C.L
-* IT24103365 — Dissanayake D.H.H
-* IT24103299 — Herath G.H.S.M
-* IT24103604 — Perera M.A.T.P
-* IT24100019 — Wanasinghe W.A.D.M
-
----
-
-## 📄 Documentation
-
-* [Final Project Report](Documentation/IE2091_Final_Report.pdf)
-
----
-
-## 🧪 Future Enhancements
-
-* REST API for mobile integration
-* Advanced analytics and forecasting
-* Email/SMS notification system
-* Multi-factory support
-
----
-
-## ⚠️ Troubleshooting
-
-* **Port already in use (8080)**
-  → Change port in `application.properties`:
-
-  ```properties
-  server.port=8081
-  ```
-
-* **Database connection issues**
-  → Check MySQL service is running
-  → Verify username/password
-
-* **Tables not created**
-  → Ensure correct DB name (`pim_system`)
-  → Check Hibernate auto config:
-
-  ```properties
-  spring.jpa.hibernate.ddl-auto=update
-  ```
-
----
 
 **Developed as part of the IE2091 Information Systems Project**
 **Sri Lanka Institute of Information Technology — 2026**
