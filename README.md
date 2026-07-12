@@ -43,45 +43,63 @@ The **Apparel Production and Inventory Management System** is a **web-based inte
 
 ### 1. Clone the Repository
 ```bash
+git clone https://github.com/Thenulaperera/Apparel-Production-and-Inventory-Management-System-.git
+cd Apparel-Production-and-Inventory-Management-System-
 
-2. Database Setup (Important)
-Install and run XAMPP (or any MySQL server)
-Open phpMyAdmin → http://localhost/phpmyadmin
-Create a new database named pim_system
-(Optional) Import the provided SQL dump if available
-If not, the system will automatically create tables on first run
-3. Configure Application
+### 2. Database Setup (Important)
+
+1. Install and run **XAMPP** (or any MySQL server)
+2. Open **phpMyAdmin** → http://localhost/phpmyadmin
+3. Create a new database named **`pim_system`**
+4. (Optional) Import the provided SQL dump if available
+
+   * If not, the system will automatically create tables on first run
+
+### 3. Configure Application
 
 Open the following file:
 
+```
 src/main/resources/application.properties
+```
 
 Ensure these configurations:
 
+```properties
 spring.datasource.url=jdbc:mysql://localhost:3306/pim_system?createDatabaseIfNotExist=true&useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
 spring.datasource.username=root
 spring.datasource.password=
+```
 
-⚠️ Update username/password if your MySQL configuration is different.
+> ⚠️ Update username/password if your MySQL configuration is different.
 
-4. Run the Application
-Open the project in IntelliJ IDEA
-Locate PimSystemApplication.java
-Run it as a Spring Boot Application
-5. Access the System
+### 4. Run the Application
+
+* Open the project in **IntelliJ IDEA**
+* Locate `PimSystemApplication.java`
+* Run it as a **Spring Boot Application**
+
+### 5. Access the System
 
 Open your browser and go to:
 👉 http://localhost:8080
 
-🔐 Demo Credentials
-Admin:
-Email: admin@example.com
-Password: admin123
-Employee:
-Email: employee@example.com
-Password: employee123
-📸 Screenshots
+### 🔐 Demo Credentials
 
-Add system screenshots here (Dashboard, Production Plan, Inventory, Reports, etc.)
-git clone https://github.com/Thenulaperera/Apparel-Production-and-Inventory-Management-System-.git
-cd Apparel-Production-and-Inventory-Management-System-
+* **Admin**:
+  Email: `admin@example.com`
+  Password: `admin123`
+
+* **Employee**:
+  Email: `employee@example.com`
+  Password: `employee123`
+
+---
+
+## 📸 Screenshots
+
+*Add system screenshots here (Dashboard, Production Plan, Inventory, Reports, etc.)*
+
+---
+
+
