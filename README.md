@@ -98,9 +98,5 @@ Open your browser and go to:
 
 ---
 
-## 📸 Screenshots
 
-*Add system screenshots here (Dashboard, Production Plan, Inventory, Reports, etc.)*
-
----
 
