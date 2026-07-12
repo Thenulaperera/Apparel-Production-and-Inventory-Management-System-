@@ -44,3 +44,52 @@ The **Apparel Production and Inventory Management System** is a **web-based inte
 1. **Clone the repository**
    ```bash
    git clone https://github.com/Thenulaperera/Apparel-Production-and-Inventory-Management-System-.git
+
+
+   Open the project in IntelliJ IDEA (recommended)
+Database Setup
+Create a MySQL database named pim_system
+Update application.properties if necessary (default uses root user with no password)
+
+Run the Application
+Run PimSystemApplication.java as Spring Boot application
+
+Access the System
+Open http://localhost:8080
+
+
+Demo Credentials:
+
+Admin: admin@example.com / admin123
+Employee: employee@example.com / employee123
+
+
+📸 Screenshots
+(Add screenshots of the following interfaces here:)
+
+Super Admin Dashboard
+Production Planning
+Needle Management
+Payroll Calculation
+Common Target Dashboard
+Reports
+
+
+👥 Team Members (ISP_G28)
+
+IT24101523 — Nuwanjith A.A.N
+IT24102303 — Gunasinghe K.C.L
+IT24103365 — Dissanayake D.H.H
+IT24103299 — Herath G.H.S.M
+IT24103604 — Perera M.A.T.P
+IT24100019 — Wanasinghe W.A.D.M
+
+
+📄 Documentation
+
+Final Project Report
+Sprint Documents
+
+
+Developed as part of the IE2091 Information Systems Project
+Sri Lanka Institute of Information Technology — 2026
