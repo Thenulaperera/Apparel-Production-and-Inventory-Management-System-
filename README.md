@@ -1,7 +1,7 @@
 # Apparel Production and Inventory Management System
 
-**Project ID:** ISP_G28
-**Module:** IE2091 - Information Systems Project (2026)
+**Project ID:** ISP_G28  
+**Module:** IE2091 - Information Systems Project (2026)  
 **Institution:** Sri Lanka Institute of Information Technology (SLIIT)
 
 ---
