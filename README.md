@@ -1,7 +1,7 @@
 # Apparel Production and Inventory Management System
 
-**Project ID:** ISP_G28  
-**Module:** IE2091 - Information Systems Project (2026)  
+**Project ID:** ISP_G28
+**Module:** IE2091 - Information Systems Project (2026)
 **Institution:** Sri Lanka Institute of Information Technology (SLIIT)
 
 ---
@@ -18,63 +18,140 @@ The **Apparel Production and Inventory Management System** is a **web-based inte
 
 ## ✨ Core Features
 
-- **Production Planning** — Create, view (Daily/Weekly/Monthly), and manage production plans with machine assignment
-- **Payroll Management** — Employee registration and automated salary calculation (Basic + OT + Allowances - Advances)
-- **Needle Management** — Record broken/missing/normal needles, manage needle types, prevent duplicates, and send critical alerts
-- **Inventory Management** — Track stock levels, low-stock alerts, and updates
-- **Support Tickets** — Raise and resolve internal support issues
-- **Reports & Analytics** — Comprehensive reporting and dashboards
-- **Audit Logging** — Track important system actions for accountability
+* **Production Planning** — Create, view (Daily/Weekly/Monthly), and manage production plans with machine assignment
+* **Payroll Management** — Employee registration and automated salary calculation (Basic + OT + Allowances - Advances)
+* **Needle Management** — Record broken/missing/normal needles, manage needle types, prevent duplicates, and send critical alerts
+* **Inventory Management** — Track stock levels, low-stock alerts, and updates
+* **Support Tickets** — Raise and resolve internal support issues
+* **Reports & Analytics** — Comprehensive reporting and dashboards
+* **Audit Logging** — Track important system actions for accountability
 
 ---
 
 ## 🛠️ Technology Stack
 
-- **Backend**: Spring Boot (Java)
-- **Frontend**: Thymeleaf + HTML/CSS/JavaScript
-- **Database**: MySQL
-- **Security**: Spring Security + JWT + BCrypt
-- **Build Tool**: Maven
-- **Architecture**: MVC with Role-Based Access Control (RBAC)
+* **Backend**: Spring Boot (Java)
+* **Frontend**: Thymeleaf + HTML/CSS/JavaScript
+* **Database**: MySQL
+* **Security**: Spring Security + JWT + BCrypt
+* **Build Tool**: Maven
+* **Architecture**: MVC with Role-Based Access Control (RBAC)
 
 ---
 
 ## 🚀 How to Run the Project
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/Thenulaperera/Apparel-Production-and-Inventory-Management-System-.git
+### 1. Clone the Repository
 
- 2. Database Setup (Important)
+```bash
+git clone https://github.com/Thenulaperera/Apparel-Production-and-Inventory-Management-System-.git
+cd Apparel-Production-and-Inventory-Management-System-
+```
 
-Install and run XAMPP (or any MySQL server)
-Open phpMyAdmin (http://localhost/phpmyadmin)
-Create a new database named pim_system
-(Optional) Import the provided SQL dump if available, otherwise the system will auto-create tables on first run.
+### 2. Database Setup (Important)
 
-3. Configure Application
-Open src/main/resources/application.properties and ensure the following:
-propertiesspring.datasource.url=jdbc:mysql://localhost:3306/pim_system?createDatabaseIfNotExist=true&useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
+1. Install and run **XAMPP** (or any MySQL server)
+2. Open **phpMyAdmin** → http://localhost/phpmyadmin
+3. Create a new database named **`pim_system`**
+4. (Optional) Import the provided SQL dump if available
+
+   * If not, the system will automatically create tables on first run
+
+### 3. Configure Application
+
+Open the following file:
+
+```
+src/main/resources/application.properties
+```
+
+Ensure these configurations:
+
+```properties
+spring.datasource.url=jdbc:mysql://localhost:3306/pim_system?createDatabaseIfNotExist=true&useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
 spring.datasource.username=root
 spring.datasource.password=
-4. Run the Application
+```
 
-Open the project in IntelliJ IDEA
-Run PimSystemApplication.java as a Spring Boot application
+> ⚠️ Update username/password if your MySQL configuration is different.
 
-5. Access the System
+### 4. Run the Application
+
+* Open the project in **IntelliJ IDEA**
+* Locate `PimSystemApplication.java`
+* Run it as a **Spring Boot Application**
+
+### 5. Access the System
+
 Open your browser and go to:
-http://localhost:8080
-Demo Credentials:
+👉 http://localhost:8080
 
-Admin: admin@example.com / admin123
-Employee: employee@example.com / employee123
+### 🔐 Demo Credentials
 
+* **Admin**:
+  Email: `admin@example.com`
+  Password: `admin123`
 
-📸 Screenshots
-(Add screenshots here)
-Admin: admin@example.com / admin123
-Employee: employee@example.com / employee123
+* **Employee**:
+  Email: `employee@example.com`
+  Password: `employee123`
 
+---
 
+## 📸 Screenshots
 
+*Add system screenshots here (Dashboard, Production Plan, Inventory, Reports, etc.)*
+
+---
+
+## 👥 Team Members (ISP_G28)
+
+* IT24101523 — Nuwanjith A.A.N
+* IT24102303 — Gunasinghe K.C.L
+* IT24103365 — Dissanayake D.H.H
+* IT24103299 — Herath G.H.S.M
+* IT24103604 — Perera M.A.T.P
+* IT24100019 — Wanasinghe W.A.D.M
+
+---
+
+## 📄 Documentation
+
+* [Final Project Report](Documentation/IE2091_Final_Report.pdf)
+
+---
+
+## 🧪 Future Enhancements
+
+* REST API for mobile integration
+* Advanced analytics and forecasting
+* Email/SMS notification system
+* Multi-factory support
+
+---
+
+## ⚠️ Troubleshooting
+
+* **Port already in use (8080)**
+  → Change port in `application.properties`:
+
+  ```properties
+  server.port=8081
+  ```
+
+* **Database connection issues**
+  → Check MySQL service is running
+  → Verify username/password
+
+* **Tables not created**
+  → Ensure correct DB name (`pim_system`)
+  → Check Hibernate auto config:
+
+  ```properties
+  spring.jpa.hibernate.ddl-auto=update
+  ```
+
+---
+
+**Developed as part of the IE2091 Information Systems Project**
+**Sri Lanka Institute of Information Technology — 2026**
