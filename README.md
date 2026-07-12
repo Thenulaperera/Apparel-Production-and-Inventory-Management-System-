@@ -45,20 +45,34 @@ The **Apparel Production and Inventory Management System** is a **web-based inte
    ```bash
    git clone https://github.com/Thenulaperera/Apparel-Production-and-Inventory-Management-System-.git
 
-   Open the project in IntelliJ IDEA (recommended)
-Database Setup
-Create a MySQL database named pim_system
-Update application.properties if necessary (default uses root user with no password)
+ 2. Database Setup (Important)
 
-Run the Application
-Run PimSystemApplication.java as Spring Boot application
+Install and run XAMPP (or any MySQL server)
+Open phpMyAdmin (http://localhost/phpmyadmin)
+Create a new database named pim_system
+(Optional) Import the provided SQL dump if available, otherwise the system will auto-create tables on first run.
 
-Access the System
-Open http://localhost:8080
+3. Configure Application
+Open src/main/resources/application.properties and ensure the following:
+propertiesspring.datasource.url=jdbc:mysql://localhost:3306/pim_system?createDatabaseIfNotExist=true&useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
+spring.datasource.username=root
+spring.datasource.password=
+4. Run the Application
 
+Open the project in IntelliJ IDEA
+Run PimSystemApplication.java as a Spring Boot application
 
+5. Access the System
+Open your browser and go to:
+http://localhost:8080
 Demo Credentials:
 
+Admin: admin@example.com / admin123
+Employee: employee@example.com / employee123
+
+
+📸 Screenshots
+(Add screenshots here)
 Admin: admin@example.com / admin123
 Employee: employee@example.com / employee123
 
